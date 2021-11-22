@@ -384,7 +384,7 @@ footer p{
     z-index: 9999999;
 }
 
-#load{
+.load{
     border: 15px solid #ccc;
     border-top-color: #ff63fa;
     border-top-style: groove;
