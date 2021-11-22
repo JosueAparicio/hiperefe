@@ -1,0 +1,428 @@
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section {
+        padding-bottom:0
+    }
+}
+
+
+
+.roadmap-section .box-section {
+    position: relative;
+    
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.roadmap-section .bg-process {
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+
+.roadmap-section .bg-process .box-process {
+    position: relative;
+    width: calc(100% - 280px);
+    margin: 0 auto;
+    padding-bottom: 130px
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process {
+        padding-bottom:100px;
+        width: calc(100% - 180px)
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .roadmap-section .bg-process .box-process {
+        width:calc(100% - 30px)
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process {
+        display:none
+    }
+}
+
+.roadmap-section .bg-process .box-process .to-the-moon {
+    position: absolute;
+    top: -170px;
+    right: .9%;
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .to-the-moon {
+        top:-125px;
+        right: .8%
+    }
+}
+
+.roadmap-section .bg-process .box-process .to-the-moon img {
+    height: 180px
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .to-the-moon img {
+        height:130px
+    }
+}
+
+.roadmap-section .bg-process .box-process .to-the-moon span {
+    font-family: proxima nova th;
+    position: absolute;
+    width: 120px;
+    top: 60px;
+    right: -40px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    color: #ff63fa
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .to-the-moon span {
+        font-size:13px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-transform: skewY(-17deg);
+    transform: skewY(-17deg);
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-timeline {
+        top:45px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-timeline .item {
+    width: 13.9%;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 60px
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item {
+        padding-left:22px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item {
+        padding-left:15px;
+        padding-bottom: 20px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-timeline .item:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 23px;
+    height: 100%;
+    width: 5px;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(transparent));
+    background: linear-gradient(to bottom,#fff,transparent);
+    -webkit-transform: skewY(17deg);
+    transform: skewY(17deg)
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item:before {
+        left:14px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item:before {
+        left:8px;
+        top: 8px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-timeline .item .time,.roadmap-section .bg-process .box-process .list-timeline .item .alpha {
+    -webkit-transform: skewY(17deg) translateY(35px);
+    transform: skewY(17deg) translateY(35px)
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item .time,.roadmap-section .bg-process .box-process .list-timeline .item .alpha {
+        -webkit-transform:skewY(17deg) translateY(25px);
+        transform: skewY(17deg) translateY(25px)
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-timeline .item .time {
+    font-family: proxima nova th;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item .time {
+        font-size:20px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item .time {
+        font-size:14px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-timeline .item .alpha {
+    font-family: proxima nova th;
+    color: #e44fff;
+    font-weight: 700;
+    font-size: 18px
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item .alpha {
+        font-size:15px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .list-timeline .item .alpha {
+        font-size:13px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 39%;
+    left: 15px;
+    width: 100%;
+    top: 250px;
+    -webkit-transform: skewY(-16deg);
+    transform: skewY(-16deg)
+}
+
+.roadmap-section .bg-process .box-process .list-item .item {
+    width: 13.8%;
+    padding-left: 32px;
+    -webkit-transform: skewY(356deg);
+    /* transform: skewY(358deg); */
+}
+
+@media only screen and (max-width: 991px) {
+    .roadmap-section .bg-process .box-process .list-item .item {
+        font-size:12px;
+        padding-left: 5px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-item .item .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2px;
+    font-size: 16px
+}
+
+@media only screen and (max-width: 1500px) {
+    .roadmap-section .bg-process .box-process .list-item .item .info {
+        font-size:14px
+    }
+}
+
+.roadmap-section .bg-process .box-process .list-item .item .info img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px
+}
+
+.roadmap-section .bg-process .box-process-mobile {
+    max-width: 575px;
+    margin: 0 auto
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step {
+    position: relative;
+    padding-top: 25px
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step:before {
+    position: absolute;
+    content: "";
+    top: 19px;
+    left: 19px;
+    width: 6px;
+    height: calc(100% - 82px);
+    background-color: #f2f2f2;
+    margin: 0 auto
+}
+
+@media only screen and (max-width: 767px) {
+    .roadmap-section .bg-process .box-process-mobile .list-step:before {
+        left:12px;
+        height: calc(100% - 88px)
+    }
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step {
+    position: relative;
+    width: 50%;
+    margin-bottom: 35px
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step.step-right {
+    width: 100%;
+    padding-left: 70px
+}
+
+@media only screen and (max-width: 767px) {
+    .roadmap-section .bg-process .box-process-mobile .list-step .item-step.step-right {
+        padding-left:60px
+    }
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step.step-right .info-step:before {
+    left: -16px!important;
+    right: initial;
+    border-left: 18px solid transparent;
+    border-right: 0
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step.step-right .icon-step {
+    left: 0;
+    right: 0
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step:last-child {
+    width: 100%
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step:last-child .alpha {
+    margin-left: 0!important
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .icon-step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-self: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    position: absolute;
+    top: -22px;
+    left: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .roadmap-section .bg-process .box-process-mobile .list-step .item-step .icon-step {
+        width:30px;
+        height: 30px;
+        top: -15px
+    }
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .icon-step span {
+    font-size: 32px;
+    margin: 0 auto
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .icon-step span:before {
+    color: #fff
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step {
+    position: relative;
+    background-color: #623c88;
+    padding: 20px 20px 15px;
+    cursor: pointer
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -16px;
+    right: initial;
+    border-left: 18px solid transparent;
+    border-right: 0;
+    border-top: 18px solid #623c88
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .time {
+    font-family: proxima nova th;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 15px
+}
+
+@media only screen and (max-width: 767px) {
+    .roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .time {
+        font-size:20px
+    }
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .alpha {
+    font-family: proxima nova th;
+    color: #e44fff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px
+}
+
+@media only screen and (max-width: 575px) {
+    .roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .alpha {
+        font-size:14px
+    }
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2px;
+    font-size: 15px
+}
+
+.roadmap-section .bg-process .box-process-mobile .list-step .item-step .info-step .info img {
+    width: 18px;
+    height: auto;
+    margin-right: 5px
+}

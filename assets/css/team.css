@@ -1,0 +1,91 @@
+.team-section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card
+{
+   position: relative;
+   width: 240px;
+   height: 280px;
+   background: linear-gradient(to bottom, #301a43, #5e1387);;
+   overflow: hidden;
+   border-radius: 10px;
+   margin: 10px;
+}
+.card .circleteam
+{
+   position: absolute;
+   top: -190px;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   transform: translateX(-50%);
+   clip-path: circle();
+}
+.card .circleteam::before
+{
+   content: '';
+   position: absolute;
+   top: -8px;
+   left: -16px;
+   width: 100%;
+   height: 100%;
+   box-shadow: 0 0 0 20px #ff63fa;
+   border-radius: 50%;
+   z-index: 2;
+   pointer-events: none;
+}
+.circleteam .imgBox
+{
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   transform: translateX(-50%);
+   width: 240px;
+   height: 210px;
+}
+.imgBox img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+   transition: all 0.5s;
+}
+.imgBox img:hover
+{
+   transform: scale(1.2);
+}
+.card .content
+{
+   position: absolute;
+   left: 0;
+   bottom: -50px;
+   width: 100%;
+   height: 140px;
+   padding: 20px 30px;
+}
+
+.content h3
+{
+   font-size: 1.2em;
+   color: #fff;
+   margin-top: 7px;
+   margin-bottom: 2px;
+}
+.content .textIcon
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+.content .textIcon h4{
+    color: #ff63fa;
+}
