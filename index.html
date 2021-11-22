@@ -18,6 +18,9 @@
 </head>
 
 <body>
+  <div id="contenedor_load" class="contenedor_load">
+    <div id="load"></div>
+  </div>
   <header>
     <div class="logo">
       <a href="#"><img class="logo-img" src="assets/images/3.png" alt="" /></a>
@@ -377,6 +380,13 @@
       const offsetTop = document.querySelector(href).offsetTop;
 
       scroll({ top: offsetTop, behavior: "smooth" });
+    }
+
+    window.onload = () =>{
+      const loader = document.getElementById('contenedor_load');
+      loader.style.visibility = "hidden";
+      loader.style.opacity = "0"
+      console.log(loader);
     }
   </script>
 
