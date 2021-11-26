@@ -376,7 +376,7 @@ footer p{
 }
 
 .contenedor_load{
-    background-color: rgb(0, 18, 45);;
+    background-color: rgb(0, 18, 45);
     height: 100%;
     width: 100%;
     position: fixed;
@@ -419,4 +419,39 @@ footer p{
     right: 0;
     bottom: 0;
     margin: auto;
+}
+.no-avaible{
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (max-width: 700px) {
+    .no-avaible {
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        background-color: rgb(0, 18, 45);
+        height: 100%;
+        width: 100%;
+        transition: all 1s ease;
+        z-index: 99999999;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .no-avaible h1{
+        color: #fff;
+        text-align: center;
+        width: 100%;
+
+        font-size: 18px;
+    }
+
+    header, .section, .banner, .city{
+        visibility: hidden;
+        display: none;
+    }
+    body{
+        max-width: 100%;
+    }
 }
