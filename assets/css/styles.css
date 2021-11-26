@@ -414,7 +414,7 @@ footer p{
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 400px;
+    top: 450px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -447,7 +447,7 @@ footer p{
         font-size: 18px;
     }
 
-    header, .section, .banner, .city{
+    header, .section, .banner, .city footer{
         visibility: hidden;
         display: none;
     }
